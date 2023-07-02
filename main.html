@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1 class=dropdown-button>+</h1>
+            <h1>Volt</h1>
+        </div>
+
+
+        <div class="dropdown-content">
+
+            <a href="https://github.com/volt2054">
+                <div class="row">
+                    <img src="github-mark-white.svg"></img>
+                    <h1 style="display: inline">Github</h1>
+                </div>
+            </a>
+
+            <a href="mailto:ethan.williamson.2006@gmail.com">
+                <div class="row">
+                    <img src="mail-inbox-app.png" style="filter: invert(1);"></img>
+                    <h1 style="display: inline">Email</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const dropdownButton = document.querySelector('.dropdown-button');
+        const dropdownContent = document.querySelector('.dropdown-content');
+
+        dropdownButton.addEventListener('click', () => {
+            dropdownContent.style.display = dropdownContent.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>
