@@ -16,9 +16,6 @@ body {
     margin: 0;
 
     font-family: 'JetBrainsMono'
-
-
-
 }
 
 .container {
@@ -32,6 +29,7 @@ body {
 .dropdown-content {
     display: none;
     transition: 0.3s;
+    display: inline;
 }
 
 .dropdown-button {
@@ -70,11 +68,4 @@ a {
 a:hover {
     filter:invert(0.5);
     transform: scale(1.1);
-}
-
-.contributions {
-    border-radius: 25px;
-}
-.contributions img {
-    width:80%
 }
