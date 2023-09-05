@@ -19,17 +19,14 @@ body {
 }
 
 .container {
-    background-color: #000;
+    background-color: #222;
     color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    text-align: center;
+    border-radius: 10px;
 }
 
 .dropdown-content {
     display: none;
-    transition: 0.3s;
-    display: inline;
 }
 
 .dropdown-button {
@@ -40,7 +37,7 @@ body {
 .row {
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 5vh;
     padding: 2%
 }
 
@@ -67,5 +64,4 @@ a {
 
 a:hover {
     filter:invert(0.5);
-    transform: scale(1.1);
 }
